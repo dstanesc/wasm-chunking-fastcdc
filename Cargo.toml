@@ -2,7 +2,7 @@
 name = "wasm-chunking-fastcdc"
 description = "This crate generates WebAssembly bindings to the FastCDC content defined slicing library"
 repository = "https://github.com/dstanesc/wasm-chunking-fastcdc"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["dstanesc <dstanesc@gmail.com>"]
 edition = "2018"
 license = "MIT OR Apache-2.0"

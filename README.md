@@ -90,3 +90,7 @@ let avg_size: u32 = 256;
 let max_size: u32 = 1024;
 let offsets: Vec<u32> = compute_chunks(slice, min_size, avg_size, max_size).unwrap();
 ```
+
+## License
+
+Licensed under either [Apache 2.0](http://opensource.org/licenses/MIT) or [MIT](http://opensource.org/licenses/MIT) at your option.
