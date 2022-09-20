@@ -1,0 +1,32 @@
+[
+    {
+        "name": "@dstanesc/wasm-chunking-fastcdc-node",
+        "decription": "Wasm library for FastCDC content-defined slicing for NodeJS. This is a convenience wrapper on the existing existing [rust implementation](https://github.com/nlfiedler/fastcdc-rs)",
+        "homepage": "https://github.com/dstanesc/wasm-chunking-fastcdc",
+        "repository": "https://github.com/dstanesc/wasm-chunking-fastcdc",
+        "license": "MIT, Apache 2.0",
+        "author": "Hexagon and contributors",
+        "keywords": [
+            "fastcdc",
+            "wasm",
+            "nodejs",
+            "chunking",
+            "cdc"
+        ]
+    },
+    {
+        "name": "@dstanesc/wasm-chunking-fastcdc-webpack",
+        "decription": "Wasm library for FastCDC content-defined slicing for bundlers such as Webpack. This is a convenience wrapper on the existing [rust implementation](https://github.com/nlfiedler/fastcdc-rs)",
+        "homepage": "https://github.com/dstanesc/wasm-chunking-fastcdc",
+        "repository": "https://github.com/dstanesc/wasm-chunking-fastcdc",
+        "license": "MIT, Apache 2.0",
+        "author": "Hexagon and contributors",
+        "keywords": [
+            "fastcdc",
+            "wasm",
+            "webpack",
+            "chunking",
+            "cdc"
+        ]
+    }
+]

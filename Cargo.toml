@@ -1,0 +1,29 @@
+[package]
+name = "wasm-chunking-fastcdc"
+description = "This crate generates WebAssembly bindings to the FastCDC content defined slicing library"
+repository = "https://github.com/dstanesc/wasm-chunking-fastcdc"
+version = "0.1.0"
+authors = ["dstanesc <dstanesc@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wasm-bindgen = "0.2.83"
+js-sys = "0.3.60"
+fastcdc = "1.0.6"
+
+[dev-dependencies.web-sys]
+version = "0.3.60"
+features = [
+  "console",
+]
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.33"
+
+[profile.release]
+# Tell `rustc` to optimize for small code size.
+opt-level = "s"
